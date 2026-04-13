@@ -2,7 +2,7 @@ import React, { use } from 'react';
 
 import BooksCard from '../Components/UI/BooksCard';
 
-const booksPromises = fetch("/public/booksData.json").then(res => res.json());
+const booksPromises = fetch("/booksData.json").then(res => res.json());
 
 const Books = () => {
     // const books = useLoaderData();
