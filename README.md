@@ -1,16 +1,71 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 📘 Book Vibe
 
-Currently, two official plugins are available:
+A modern book discovery and management web application built with React. Users can explore books, view details, and manage their reading list efficiently.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 📚 Browse and explore books  
+- 🔍 View detailed book information  
+- ❤️ Add books to Wishlist  
+- ✅ Mark books as Read  
+- 🔄 Sort books by category, rating, and year  
+- 🔔 Toast notifications for actions  
+- ⚡ Responsive UI  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js  
+- **State Management:** Context API  
+- **Styling:** Tailwind CSS + DaisyUI  
+- **Other:** Toast notifications, custom sorting logic  
+
+---
+
+## 🧠 Key Concepts Used
+
+- Custom Context API for global state management  
+- Component-based architecture  
+- Dynamic routing (React Router)  
+- Sorting & filtering logic  
+- Reusable UI components  
+
+---
+
+## 📸 UI Preview
+
+### 🏠 Home Page
+<img width="1918" height="860" alt="image" src="https://github.com/user-attachments/assets/94471042-9b2a-4367-ab91-fd937946e219" />
+
+
+### 📖 Book Details
+<img width="1916" height="862" alt="image" src="https://github.com/user-attachments/assets/8a92772d-4a29-4d3a-8365-d96aef29857a" />
+
+
+### 📚 Listed Books
+<img width="1918" height="861" alt="image" src="https://github.com/user-attachments/assets/ff8f5a1c-5bba-4ed7-88c6-e56e5fd01326" />
+
+chart: <img width="1918" height="857" alt="image" src="https://github.com/user-attachments/assets/536da046-d34d-4e29-9e9e-6a60e288c4e9" />
+
+---
+
+---
+
+## ⚙️ Installation & Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/book-vibe.git
+
+# Navigate to project folder
+cd book-vibe
+
+# Install dependencies
+npm install
+
+# Run the project
+npm run dev
